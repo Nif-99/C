@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "library.h"
 
+void print_function( char letter );
+int ctr;
 
-
-int plusmin( void )
+int main( void )
 {
     int a = 1;
     char star = '*';
@@ -24,7 +24,7 @@ int plusmin( void )
 
 void print_function ( char letter )
 {
-    for (ctr = 0; ctr < 9; ctr++) 
+    for ( ctr = 0; ctr < 9; ctr++) 
     {
         printf("%c", letter);
     }
