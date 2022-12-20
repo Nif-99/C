@@ -1,1 +1,0 @@
-f("Dit is value 1: %f\n", *(va
